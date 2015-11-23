@@ -13,5 +13,5 @@ Your phone should able to get root access to use Remoteroid.
 http://blog.csdn.net/songshimvp1/article/details/49999989     ——error LNK2038、error LNK1123
 
 ## Client端错误解决：
-找到.classpath文件，对应修改为<classpathentry kind="src" path="src"/>；
+找到.classpath文件，对应修改为：classpathentry kind="src" path="src"  ；<BR>
 同时加载ActionbarSherlockLib和android两个文件夹，进行编译；
